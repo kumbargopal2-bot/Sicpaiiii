@@ -292,3 +292,17 @@ font-size:36px;
 font-weight:bold;
 
 }
+html,
+body,
+.screen,
+video,
+#loadingBackground {
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+}
+
+body {
+    position: fixed;
+    inset: 0;
+}
